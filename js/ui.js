@@ -1,5 +1,5 @@
 function climaTexto(code, vento) {
-  if (code >= 0 && code <=3) return "Ensolarado";
+  if (code === 0) return "Ensolarado";
   if ((code >= 51 && code <= 67) || (code >= 80 && code <= 82)) return "Chuvoso";
   if (code >= 71 && code <= 77) return "Nevando";
   if (code >= 1 && code <= 3) return "Nublado";
